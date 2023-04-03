@@ -11,7 +11,7 @@ HTTP and HTTPS listeners with default actions:
 ```hcl
 module "alb" {
   source  = "terraform-aws-modules/alb/aws"
-  version = "~> 6.0"
+  version = "~> 6.7.0"
 
   name = "my-alb"
 
